@@ -5,6 +5,7 @@
 
 body{
     background-color: rgb(239, 248, 248);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -30,7 +31,7 @@ nav #img{
     width: 52px;
     background-color: rgb(237, 237, 4);
     border-radius: 50%;
-    /* background-image: url('B612_20221119_142359_446.jpg'); */
+    background-image: url('./Images/B612_20221119_142359_446.jpg');
     background-size: cover;
     border-style: groove;
 }

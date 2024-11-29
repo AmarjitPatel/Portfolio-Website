@@ -1,5 +1,9 @@
 import React from 'react'
 import "./HeroSection.css"
+import { Link } from 'react-router'
+import Projects from '../Projects/Projects'
+import About from '../About/About'
+import ContactUs from '../ContactUs/ContactUs'
 export default function HeroSection() {
   return (
     <>
@@ -9,9 +13,9 @@ export default function HeroSection() {
                 <li><div id="img"></div></li>
                 <li id="name">AMARJIT PATEL</li>
                 <li id="home"><a href="herosection.html">HOME</a></li>
-                <li id="about"><a href="About.html">ABOUT</a></li>
-                <li id="projects"><a href="Project.html">PROJECTS</a></li>
-                <li id="contact"><a href="Contact.html">CONTACT</a></li>
+                <li id="about"><Link to='/About' element={<About/>}>ABOUT</Link></li>
+                <li id="projects"><Link to='Projects' element={<progress/>}>PROJECTS</Link></li>
+                <li id="contact"><Link to='/Contact' element={<ContactUs/>}>CONTACT</Link></li>
             </ul>
         </div>
     </nav>
@@ -37,7 +41,7 @@ export default function HeroSection() {
               </div>
             <p id="p1" >A FullStack focused Web Developer building the Frontend & Backend of Websites and Web</p>
             <p id="p2" >Applications that leads to the success of the overall product</p>
-            <a href="Project.html"><button>PROJECTS</button></a>
+            <Link to='/Projects' element={<Projects/>}><button>PROJECTS</button></Link>
         </div>
     </div>
     </>
