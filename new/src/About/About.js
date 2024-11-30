@@ -20,7 +20,7 @@ export default function About() {
     <main>
         <div class="container">
             <div class="content">
-                <h2>Welcome to My Portfolio</h2>
+                <h2 id='welcome'>Welcome to My Portfolio</h2>
                 <p>
                     Hi, I'm <b>Amarjit Patel</b>, a passionate web developer and designer. I specialize in creating interactive and visually appealing websites using the latest web technologies.
                 </p>
@@ -30,19 +30,23 @@ export default function About() {
             </div>
 
             <section class="values-section">
-                <h2>Our Core Values</h2>
+                <h2 id='h2'>My Services</h2>
                 <div class="values-container">
                     <div class="value-card">
-                        <h3>Innovation</h3>
-                        <p>We embrace creativity and constantly seek new solutions for web development challenges.</p>
+                    <i id='html' class="fa-brands fa-html5"></i>
+                        <h2>Html5</h2>
                     </div>
                     <div class="value-card">
-                        <h3>Quality</h3>
-                        <p>Our focus is on producing high-quality code and user-friendly designs.</p>
+                    <i id='css' class="fa-brands fa-css3-alt"></i>
+                        <h2>Css3</h2>
                     </div>
                     <div class="value-card">
-                        <h3>Collaboration</h3>
-                        <p>We believe in working closely with our clients to bring their vision to life.</p>
+                    <i id='javascript' class="fa-brands fa-js"></i>
+                        <h2>JavaScript</h2>
+                    </div>
+                    <div class="value-card">
+                    <i id='web' class="fa-solid fa-code"></i>
+                        <h2>Web Designing</h2>
                     </div>
                 </div>
             </section>
@@ -81,6 +85,9 @@ export default function About() {
             </section>
         </div>
     </main>
+    <footer>
+        <p>&copy; 2024 MyPortfolio | All Rights Reserved.</p>
+    </footer>
         </div>
     </>
   )

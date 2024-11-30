@@ -74,8 +74,12 @@ ul li:hover{
 .intro-section {
     display: flex;
     gap: 40px;
-    margin: 40px 0;
+    margin: 35px 0;
     align-items: center;
+}
+
+#welcome{
+    font-size: 38px;
 }
 
 .intro-section .intro-text {
@@ -86,21 +90,17 @@ ul li:hover{
     flex: 1;
 }
 
-.intro-section .intro-image img {
-    height: 180px;
-    width: 180px;
-    border-radius: 10px;
-}
-
 /* Values Section */
 .values-section {
-    background-color: #f1f1f1;
-    padding: 40px 0;
+    /* background-color: #f1f1f1; */
+    padding: 20px 0;
     text-align: center;
 }
 
-.values-section h2 {
-    margin-bottom: 20px;
+.values-section #h2 {
+    margin-bottom: 70px;
+    font-size: 38px;
+    text-align: left;
 }
 
 .values-container {
@@ -114,14 +114,28 @@ ul li:hover{
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    width: 300px;
-    text-align: left;
+    border-radius: 50%;
+    width: 220px;
+    height: 225px;
+    text-align: center;
 }
 
+.value-card:hover{
+    transform: translateY(-10px);
+    transition: 0.2s ease-in;
+}
+
+#html, #css, #javascript, #web{
+    font-size: 80px;
+    margin-top: 40px;
+}
+
+h2{
+    margin-top: 10px;
+}
 /* Team Section */
 .team-section {
-    margin: 40px 0;
+    margin: 57px 0;
     text-align: center;
 }
 
@@ -192,10 +206,29 @@ ul li:hover{
     margin-top: 0;
 }
 
-/* Footer */
-footer {
-    background-color: #222;
-    color: #fff;
+/* Footer Styles */
+.About footer {
     text-align: center;
-    padding: 20px 0;
+    background: #282c34;
+    color: #fff;
+    padding: 10px 0;
+    margin-top: 70px;
 }
+
+.About footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-container {
+        margin-bottom: 30px;
+    }
+}
+
+

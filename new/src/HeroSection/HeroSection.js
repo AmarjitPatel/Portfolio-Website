@@ -7,6 +7,7 @@ import ContactUs from '../ContactUs/ContactUs'
 export default function HeroSection() {
   return (
     <>
+      <div className='Hero'>
             <nav>
         <div className="cont1">
             <ul class="b">
@@ -43,6 +44,10 @@ export default function HeroSection() {
             <p id="p2" >Applications that leads to the success of the overall product</p>
             <Link to='/Projects' element={<Projects/>}><button>PROJECTS</button></Link>
         </div>
+        <footer>
+        <p>&copy; 2024 MyPortfolio | All Rights Reserved.</p>
+    </footer>
+    </div>
     </div>
     </>
   )

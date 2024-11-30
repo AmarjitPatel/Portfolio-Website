@@ -80,12 +80,12 @@
 
 /* Projects Section */
 .Projects .projects-section {
-    margin: 50px 0;
+    margin: 35px 0;
     text-align: center;
 }
 
 .Projects .projects-section h2 {
-    font-size: 2.5rem;
+    font-size: 38px;
     margin-bottom: 40px;
 }
 
@@ -174,4 +174,30 @@
     font-size: 1rem;
     line-height: 1.5;
 }
+
+/* Footer Styles */
+.Projects footer {
+    text-align: center;
+    background: #282c34;
+    color: #fff;
+    padding: 10px 0;
+    margin-top: 70px;
+}
+
+.Projects footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-container {
+        margin-bottom: 30px;
+    }
+}
+
 

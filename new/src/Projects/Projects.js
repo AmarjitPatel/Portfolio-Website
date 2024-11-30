@@ -19,7 +19,7 @@ export default function Projects() {
 
     <section class="projects-section">
         <div class="container">
-            <h2>Our Projects</h2>
+            <h2>My Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
                     <div id='img1'></div>
@@ -71,6 +71,9 @@ export default function Projects() {
             </div>
         </div>
     </section>
+    <footer>
+        <p>&copy; 2024 MyPortfolio | All Rights Reserved.</p>
+    </footer>
     </div>
     </>
   )

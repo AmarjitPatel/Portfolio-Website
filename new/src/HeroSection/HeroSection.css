@@ -75,7 +75,6 @@ ul li:hover{
     width: 60px;
     background-color: rgb(237, 210, 210);
     margin-top: 150px;
-    
     margin-left: 5px;
     border-radius: 10px;
 }
@@ -307,4 +306,30 @@ ul li:hover{
     transition: 0.2s ease-in;
     transform: scale(1.05);
 }
+
+/* Footer Styles */
+.Hero footer {
+  text-align: center;
+  background: #282c34;
+  color: #fff;
+  padding: 10px 0;
+  margin-top: 32px;
+}
+
+.Hero footer p {
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-content {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .text-container {
+      margin-bottom: 30px;
+  }
+}
+
 
