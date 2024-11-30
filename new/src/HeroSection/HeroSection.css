@@ -9,7 +9,7 @@ body{
 }
 
 
-nav{
+.Hero nav{
     height: 70px;
     width: 100wh;
     background-color: rgb(237, 210, 210);
@@ -20,7 +20,7 @@ nav{
     box-shadow: 1px 1px black;
 }
 
-.b{
+ .b{
   margin: 40px;
 }
 

@@ -9,12 +9,9 @@ function App() {
     <>
       <BrowserRouter>
       <Routes>
-      <Route path='/' element={<HeroSection/>}></Route>
-      <Route path='/Projects' element={<Projects/>}></Route>
-      <Route path='/Projects' element={<Projects/>}></Route>
-      <Route path='Projects' element={<Projects/>}></Route>
-      <Route path='/About' element={<About/>}></Route>
-      <Route path='/Contact' element={<ContactUs/>}></Route>
+      <Route path='/' element={<HeroSection/>}>
+      <Route path='/About' element={<About/>}>
+      </Route>
       </Routes>
       </BrowserRouter>
     </>

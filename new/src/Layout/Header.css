@@ -1,0 +1,60 @@
+nav{
+    height: 70px;
+    width: 100wh;
+    background-color: rgb(237, 210, 210);
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+    box-shadow: 1px 1px black;
+}
+
+.b{
+  margin: 40px;
+}
+
+
+
+nav #img{
+    height: 52px;
+    width: 52px;
+    background-color: rgb(237, 237, 4);
+    border-radius: 50%;
+    background-image: url('./Images/B612_20221119_142359_446.jpg');
+    background-size: cover;
+    border-style: groove;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+ul #name{
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: 550;
+    font-size: 1.3rem;
+}
+
+ul #home{
+    margin-left: 700px;
+    text-decoration: underline;
+    font-weight: 550;
+}
+
+
+ul li a{
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 550;
+    text-decoration: none;
+    color: #000;
+}
+
+ul li:hover{
+    text-decoration:underline;
+    transition: 1.5s ease-in;
+    cursor: pointer;
+}
