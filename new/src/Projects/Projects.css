@@ -13,71 +13,6 @@
     padding: 20px;
 }
 
-/* Navigation */
-.Projects nav{
-    height: 70px;
-    width: 100wh;
-    background-color: rgb(237, 210, 210);
-    color: black;
-    display: flex;
-    align-items: center;
-    padding: 0px 20px 0px 20px;
-    box-shadow: 1px 1px black;
-}
-
-.Projects .b{
-  margin: 40px;
-}
-
-
-
-.Projects nav #img{
-    height: 52px;
-    width: 52px;
-    background-color: rgb(237, 237, 4);
-    border-radius: 50%;
-    /* background-image: url('B612_20221119_142359_446.jpg'); */
-    background-size: cover;
-    border-style: groove;
-    margin-left: 40px;
-}
-
-.Projects ul{
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-}
-
-
-.Projects ul #name{
-    margin-left: 15px;
-    font-weight: 550;
-    font-size: 1.3rem;
-}
-.Projects #projects{
-    text-decoration: underline;
-}
-
-.Projects ul #home{
-    margin-left: 700px;
-    font-weight: 550;
-}
-
-
-.Projects ul li a{
-    margin-left: 30px;
-    font-size: 20px;
-    font-weight: 550;
-    text-decoration: none;
-    color: #000;
-}
-
-.Projects ul li:hover{
-    text-decoration:underline;
-    transition: 1.5s ease-in;
-    cursor: pointer;
-}
-
 /* Projects Section */
 .Projects .projects-section {
     margin: 35px 0;
@@ -175,29 +110,5 @@
     line-height: 1.5;
 }
 
-/* Footer Styles */
-.Projects footer {
-    text-align: center;
-    background: #282c34;
-    color: #fff;
-    padding: 10px 0;
-    margin-top: 70px;
-}
-
-.Projects footer p {
-    margin: 0;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .contact-content {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .text-container {
-        margin-bottom: 30px;
-    }
-}
 
 

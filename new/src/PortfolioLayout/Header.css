@@ -1,4 +1,15 @@
-nav{
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(239, 248, 248);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.Header nav{
     height: 70px;
     width: 100wh;
     background-color: rgb(237, 210, 210);
@@ -9,43 +20,44 @@ nav{
     box-shadow: 1px 1px black;
 }
 
-.b{
+.Header.b{
   margin: 40px;
 }
 
 
 
-nav #img{
+.Header nav #img{
     height: 52px;
     width: 52px;
     background-color: rgb(237, 237, 4);
     border-radius: 50%;
-    background-image: url('./Images/B612_20221119_142359_446.jpg');
+    background-image: url('../HeroSection/Images/B612_20221119_142359_446.jpg');
     background-size: cover;
     border-style: groove;
+    margin-left: 42px;
 }
 
-ul{
+.Header ul{
     list-style-type: none;
     display: flex;
     align-items: center;
 }
 
-ul #name{
+.Header ul #name{
     margin-left: 15px;
     text-decoration: none;
     font-weight: 550;
     font-size: 1.3rem;
 }
 
-ul #home{
+.Header ul #home{
     margin-left: 700px;
     text-decoration: underline;
     font-weight: 550;
 }
 
 
-ul li a{
+.Header ul li a{
     margin-left: 30px;
     font-size: 20px;
     font-weight: 550;
@@ -53,7 +65,7 @@ ul li a{
     color: #000;
 }
 
-ul li:hover{
+.Header ul li:hover{
     text-decoration:underline;
     transition: 1.5s ease-in;
     cursor: pointer;
